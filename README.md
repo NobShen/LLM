@@ -1,6 +1,9 @@
 # LLM
 Read "A hacker's guide to Language Models" by Jeremy Howard.
 
+### pip install openplayground
+### openplayground run
+
 import os
 import openai
 
