@@ -4,6 +4,11 @@ Read "A hacker's guide to Language Models" by Jeremy Howard.
 ### pip install openplayground
 ### openplayground run
 
+Or build Docker for it:
+###docker build . --tag "openplayground"
+###docker run --name openplayground -p 5432:5432 -d --volume openplayground:/web/config openplayground
+### 
+
 import os
 import openai
 
